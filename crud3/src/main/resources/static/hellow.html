@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevLand</title>
+    <link rel="stylesheet" href="tea.css">
+</head>
+<body>
+
+
+<header>
+    <h1>DevLand 🌐</h1> <br>
+    <p>Aprenda. Compartilhe. Evolua.</p>
+</header>
+
+
+<nav>
+    <a href="INICIO">Início</a>
+    <a href="CURSOS">Cursos</a>
+    <a href="BLOG">Blog</a>
+    <a href="CONTATOS">Contato</a>
+</nav>
+
+
+<div class="container">
+    <h2>Bem-vindo à comunidade DevLand!</h2> <br>
+    <p>Explore conteúdos de HTML, CSS, e muito mais. Aprenda na prática construindo projetos reais.</p>
+</div>
+
+
+
+<!-- Cartões de dicas -->
+<div class="cards">
+    <div class="card">
+        <h3 id="h3">💡 Dica de HTML</h3> <br>
+        <p>Utilize tags semânticas como:</p>
+        <input id="caixa"  type="text" placeholder=" header" required> <p>,</p>
+        <input id="caixa"  type="text" placeholder=" section" required> <p> e </p>
+        <input id="caixa"    type="text" placeholder="footer" required>
+        <p>para uma estrutura mais organizada.</p>
+    </div>
+
+    <div class="card">
+        <h3 id="h3">🎨 Dica de CSS</h3> <br>
+        <p>Use Flexbox para alinhar itens:</p>
+        <input id="caixa"   type="text" placeholder="display: flex; justify-content: center; align-items: center;" required>
+    </div>
+
+    <div class="card">
+        <h3 id="h3">📋 Estrutura com Grid</h3> <br>
+        <p>Utilize CSS Grid para layouts modernos e responsivos com poucas linhas de código.</p>
+    </div>
+</div>
+
+
+
+<!-- Formulário de contato -->
+<div class="contact-form">
+    <h2 id="h3">📬 Entre em contato</h2>
+    <form>
+        <input type="text" placeholder="Nome completo" required>
+        <input type="email" placeholder="E-mail" required>
+        <select id="caixa">
+            <option value="suporte">Suporte</option>
+            <option value="feedback">Feedback</option>
+            <option value="outro">Outro</option>
+        </select>
+        <textarea placeholder="Sua mensagem" rows="4"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+
+</section>
+<!-- Rodapé -->
+<footer>
+    <p>© 2025 DevLand. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
